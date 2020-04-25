@@ -1,0 +1,655 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.top
+{
+    height: 100px;
+    width: 100%;
+}
+.logo
+{
+    height: 100px;
+    width: 270px;
+    margin-left: 100px;
+}
+.logo img
+{
+    height: 50px;
+    width: 270px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.contact
+{
+    margin-top: -50px;
+}
+.contact ul
+{
+    margin-left: 500px;
+}
+.contact ul li
+{
+    display: inline-block;
+    margin-left: 90px;
+    font-size: 20px;
+    margin-top: -200px;
+    font-weight: bold;
+}
+.navbar
+{
+    width: 100%;
+    height: 60px;
+    background: #3385ff;
+    padding:1px;
+}
+.navbar ul
+{
+    margin-left: -20px;
+    margin-top: -10px;
+    text-align: center;
+}
+.navbar  ul li
+{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: -6px;
+    color: white;
+    height: 42px;
+    width: 120px;
+    padding-top: 20px;
+    
+}
+.navbar ul li:hover
+{
+    background: cyan;
+    cursor: pointer;
+    box-shadow: 2px 6px 0px 2px white;
+}
+.navbar ul input
+{
+    height: 40px;
+    width: 260px;
+    border-radius: 50px;
+    font-size: 20px;
+    padding-left: 15px;
+    outline-style: none;
+    border: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.slider
+{
+    height: 95vh;
+    width: 100%;
+    text-align: center;
+    background-image: url("images/slider-bg.png");
+    padding: 1px;
+    position: relative;
+    margin-top: 2px;
+}
+.imgdiv
+{
+    width: 100px;
+    height: 100px;
+    background: white;
+    border:3px solid cyan;    
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 620px;
+}
+.imgdiv img
+{
+    margin-top: 25px;
+    height: 50%;
+    width: 50%;
+}
+.slider h1
+{
+    font-size: 50px;
+}
+.slider1
+{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    bottom: 0px;
+    left: 130px;
+    text-align: center;
+    background: #3385ff;
+    color: white;
+    
+}
+.slider1 h3
+{
+    margin-top: 150px;
+}
+.slider2
+{
+    position: absolute;
+    width: 380px;
+    height: 370px;
+    bottom: -50px;
+    left: 480px;
+    text-align: center;
+    background: #0c4eb1;
+    color: white;
+    
+}
+.slider2 h3
+{
+    margin-top: 150px;
+}
+.slider3
+{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    bottom: 0px;
+    left: 860px;
+    text-align: center;
+    background: #002a69;
+    color: white;
+}
+.slider3 h3
+{
+    margin-top: 150px;
+}
+.path1
+{
+    width: 120px;
+    height: 120px;
+    background: rgb(11, 120, 170);
+    clip-path: polygon(100% 0, 100% 42%, 55% 0);
+    margin-top: 353px;
+    margin-left: 359px;
+    opacity: 0.7;
+}
+.path2
+{
+    width: 120px;
+    height: 113px;
+    background: rgb(11, 120, 170);
+    clip-path: polygon(100% 0, 55% 45%, 55% 0);
+    margin-left: 793px;
+    margin-top: -120px;
+    opacity: 0.7;
+}
+.page
+{
+    height: 100vh;
+    width: 100%;
+    
+}
+.page img
+{
+    margin-top: 130px;
+    height: 50px;
+    width: 60px;
+    margin-left: 643px;
+}
+.page h1
+{
+    text-align: center;
+}
+.line
+{
+    width: 50px;
+    height: 3px;
+    margin-left: 650px;
+    margin-top: 10px;
+    background: linear-gradient(to right, cyan,blue);
+}
+.inpage
+{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+.inpage h4
+{
+    padding-left: 130px;
+    padding-top: 30px;
+    color: cornflowerblue;
+}
+.inpage h2
+{
+    padding-left: 130px;
+    font-size: 40px;
+}
+.inpage p
+{
+    font-size: 18px;
+    padding-left: 130px;
+    line-height: 28px;
+    color: darkgrey;
+}
+#btn1
+{
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(to right, cyan,blue);
+    border: none;
+    margin-left: 130px;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    outline-style: none;
+}
+.inpage img
+{
+    top: -95px;
+    left: 60px;
+    width: 560px;
+    height: 370px;
+    position: absolute;
+}
+#dash
+{
+    border-bottom: 1px dashed gray;
+    margin-top: 100px;
+    margin-left: 130px;
+    width: 84%;
+}
+.cover
+{
+    width: 1230px;
+    height: 40vh;
+    margin-top: 70px;
+    margin-left: 103px;
+}
+.box
+{
+    width: 19%;
+    height: 35vh;
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+}
+.box img
+{
+    width: 100%;
+    height: 30vh;
+}
+.in-box
+{
+    position: absolute;
+    bottom: 0;
+    background: #3385ff;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+}
+.in-box h3
+{
+    padding-top: 7px;
+    color: white;
+}
+.services
+{
+    margin-top: 50px;
+    height: 100vh;
+    width: 100%;
+    background: url("images/service-bg.png");
+    background-size: 100% 100%;
+    padding:1px;
+    position: relative;
+}
+.services1
+{
+    width: 60%;
+    height: 30vh;
+    
+    margin-left: 110px;
+    margin-top: 120px;
+}
+.service
+{
+    width: 30%;
+    height: 30vh;
+    
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 18px;
+    line-height: 22px;
+}
+.service img
+{
+    width: 26%;
+    height: 10vh;
+}
+.services2
+{
+    width: 60%;
+    height: 30vh;
+    
+    margin-left: 110px;
+    margin-top: 40px;
+}
+.form
+{
+    width: 350px;
+    height: 480px;
+    position: absolute;
+    top: 80px;
+    left: 900px;
+    background: white;
+}
+.book
+{
+    width: 92%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 4%;
+    background: linear-gradient(to right, cyan,green);
+}
+.book h3
+{
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 13px;
+    color: white;
+}
+#name
+{
+    width: 88%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 14px;
+    padding-left: 10px;
+    color: black;
+    outline-style: none;
+}
+#name1
+{
+    height: 40px;
+    width: 45%;
+    margin-top: 10px;
+    margin-left: 14px;
+    padding-left: 10px;
+    color: black;
+    outline-style: none;
+}
+#name2
+{
+    height: 40px;
+    width: 45.5%;
+    padding-left: 10px;
+    color: black;
+    outline-style: none;
+    position: relative;
+    top: 0;
+}
+#name3
+{
+    width: 91.5%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 14px;
+    padding-left: 10px;
+    color: black;
+    outline-style: none;
+}
+textarea
+{
+    width: 88%;
+    margin-top: 10px;
+    margin-left: 14px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: black;
+    outline-style: none;
+}
+#btn2
+{
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(to right, cyan,blue);
+    border: none;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    outline-style: none;
+}
+.clinic
+{
+    width: 100%;
+    height: 130vh;
+}
+.clinic img
+{
+    margin-top: 130px;
+    height: 50px;
+    width: 60px;
+    margin-left: 643px;
+}
+.clinic h1
+{
+    text-align: center;
+}
+.doctors
+{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.doctor1
+{
+    height: 80vh;
+    width: 23%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 70px;
+}
+.doctor1 h3
+{
+    margin-top:45px;
+    color: teal;
+}
+.doctor1 p
+{
+    margin-top: 5px;
+    line-height: 25px;
+    color: silver;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.img1
+{
+    width: 100%;
+    height: 53vh;
+    position: relative;
+    background: url("images/doctor_01.jpg");
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+.inimg1
+{
+    width: 60%;
+    height: 50px;
+    position: absolute;
+    bottom: -25px;
+    left: 60px;
+    background: linear-gradient(to left, cyan,blue);
+}
+.img2
+{
+    width: 100%;
+    height: 53vh;
+    position: relative;
+    background: url("images/doctor_02.jpg");
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+
+.img3
+{
+    width: 100%;
+    height: 53vh;
+    position: relative;
+    background: url("images/doctor_03.jpg");
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+
+.inimg1 h2
+{
+    padding-top: 10px;
+    padding-left: 5px;
+    color: white;
+}
+.package
+{
+    width: 100%;
+    height: 100vh;
+    background: url("images/price-bg.png");
+    margin-top: 50px;
+    padding: 1px;
+}
+.package1
+{
+    width: 380px;
+    height: 60vh;
+    margin-top: 150px;
+    margin-left: 70px;
+    background: white;
+    text-align: center;
+}
+.package1 h1
+{
+    padding-top: 30px;
+}
+.package1 p
+{
+    color: gray;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.package1 ul li
+{
+    list-style: none;
+    font-size: 20px;
+    line-height: 33px;
+    color: gray;
+}
+.package1 ul li b
+{
+    color: black;
+}
+.rowline
+{
+    width: 80%;
+    margin-left: 28px;
+    margin-top: 25px;
+    height: 1px;
+    background: rgb(206, 203, 203);
+}
+#orderbtn
+{
+    width: 110px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgb(206, 203, 203);
+    outline-style: none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.package2
+{
+    width: 360px;
+    height: 85vh;
+    background: white;
+    text-align: center;
+    margin-left: 460px;
+    margin-top: -450px;
+    padding: 1px;
+}
+
+.inpkg2
+{
+    width: 98%;
+    margin-top: 4px;
+    margin-left: 3px;
+    height: 20vh;
+    background: linear-gradient(to left,cyan,blue);
+}
+.inpkg2 h1
+{
+    color: white;
+    padding-top: 40px;
+}
+.inpkg2 p
+{
+    font-weight: bold;
+    color: white;
+    line-height: 30px;
+}
+.package2 ul
+{
+    margin-top: 20px;
+}
+.package2 ul li
+{
+    list-style: none;
+    font-size: 20px;
+    line-height: 33px;
+    color: gray;
+}
+.package2 ul li b
+{
+    color: black;
+}
+#orderbtn2
+{
+    width: 130px;
+    height: 50px;
+    background: linear-gradient(to left,cyan,blue);
+    border: 1px solid rgb(206, 203, 203);
+    outline-style: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.package3
+{
+    width: 380px;
+    height: 60vh;
+    margin-top: -460px;
+    margin-left: 832px;
+    background: white;
+    text-align: center;
+}
+.package3 h1
+{
+    padding-top: 30px;
+}
+.package3 p
+{
+    color: gray;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.package3 ul li
+{
+    list-style: none;
+    font-size: 20px;
+    line-height: 33px;
+    color: gray;
+}
+.package3 ul li b
+{
+    color: black;
+}
+.allpkg
+{
+    margin-left: 30px;
+}
